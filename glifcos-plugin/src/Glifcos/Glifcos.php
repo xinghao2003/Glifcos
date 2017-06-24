@@ -3,19 +3,11 @@
 namespace Glifcos;
 
 use pocketmine\plugin\PluginBase;
-use pocketmine\command\Command;
-use pocketmine\command\CommandSender;
-use pocketmine\utils\TextFormat;
-use pocketmine\utils\Utils;
+use pocketmine\command\{Command, CommandSender};
+use pocketmine\utils\{TextFormat, Utils};
 use pocketmine\Player;
 
-use Glifcos\tasks\AsyncDataSender;
-use Glifcos\tasks\RamBroadcastTask;
-use Glifcos\tasks\ConsoleBroadcastTask;
-use Glifcos\tasks\ConsoleCommandTask;
-use Glifcos\tasks\PlayerBroadcastTask;
-use Glifcos\tasks\PluginBroadcastTask;
-use Glifcos\tasks\FileBroadcastTask;
+use Glifcos\tasks\{AsyncDataSender, RamBroadcastTask, ConsoleBroadcastTask, ConsoleCommandTask, PlayerBroadcastTask, PluginBroadcastTask, FileBroadcastTask};
 
 class Glifcos extends PluginBase {
     
